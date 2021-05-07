@@ -1,4 +1,4 @@
 # TIL
 Today I learned
 
-[ViewBinding] (../ViewBinding.md)
+[ViewBinding][../ViewBinding.md]
