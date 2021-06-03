@@ -26,8 +26,15 @@
 
 멀티스레드의 구조는 Code, Data, Heap 영역을 스레드들이 공유하며, Stack 영역만 스레드별로 따로 가진다.
 ![멀티스레드의 구조](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc03dAx%2FbtqBEz6o9Lb%2FiCB5si14jlPNFXT5701sx1%2Fimg.png)
-
+  
 ## 멀티 프로세스와 멀티 스레드
 ![멀티 프로세스](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FApUCF%2FbtqBD1a0SBH%2Fi05f8OsvEVM1gayzod7HRK%2Fimg.png)
 
-정리중...
+여러 CPU 코어 동작 -> 하나 이상의 프로세스들을 각 코어에서 동시에 처리(병렬)   
+장점 : 독립된 구조이기 때문에 안정성이 높다. Critical section 문제 없음   
+단점 : 각각 독립된 메모리 영역을 갖기 때문에, 작업량이 많을수록 오버헤드가 발생한다. 또한 Context 스위칭으로 인한 성능 저하문제가 있다.   
+   
+![멀티스레드의 구조](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbuHX3v%2FbtqBBUc8DLD%2FhsXLhRppL5L9TZfUNXzXtk%2Fimg.png)
+   
+장점 : 프로그램의 응답시간 단축, 자원 소모 감소(Stack을 제외한 메모리를 공유하기 때문), 프로세스간 통신 방법에 비해 스레드간 통신방법이 간단, Context 스위칭으로 인한 성능저하 감소
+단점 : 스레드는 메모리를 서로 공유하기때문에 동기화 관련 문제가 발생할 가능성이 높음
