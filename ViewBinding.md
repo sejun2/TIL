@@ -20,7 +20,7 @@ class SampleFragment : Fragment() {
 
 }
 ```
-프래그먼트에서 뷰 바인딩을 활용할경우 onDestroyView에서 Binding 인스턴스를 해제 해주어야한다. 
+프래그먼트에서 뷰 바인딩을 활용할경우 onDestroyView에서 Binding 인스턴스를 해제 해주어야한다.   
 NOTE: Here I have used the backing property and assign a binding variable to null in the onDestroyeView() method because Fragments outlive their views. 
 Make sure you clean up any references to the binding class instance in the fragment’s onDestroyView() method.
 
