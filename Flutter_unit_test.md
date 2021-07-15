@@ -52,3 +52,5 @@ void main() {
 3. 추가된 Mock객체는 Mock객체(); 형식으로 사용할 수 있다.
 4. when().thenAnswer() 메서드로 Mock 객체가 수행할 행동을 정의한다.
 5. expect()로 기댓값과 수행값을 비교한다.
+
+참고 : https://pub.dev/packages/mockito
