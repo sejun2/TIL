@@ -10,3 +10,6 @@
 
 ### Async vs Isolate
  - https://www.youtube.com/watch?v=5AxWC49ZMzs
+
+### Isolate
+ - https://brunch.co.kr/@mystoryg/131
