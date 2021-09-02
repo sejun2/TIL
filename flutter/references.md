@@ -6,7 +6,7 @@
 ### Custom Bottom Navigation View
  - https://www.youtube.com/watch?v=1ToqYMSnNhA
 
-### CustomPatiner
+### CustomPainter
  - https://blog.codemagic.io/flutter-custom-painter/ `CustomPainter with animation`
  - https://fluttershapemaker.com/ `CustomPainter tool`
 
