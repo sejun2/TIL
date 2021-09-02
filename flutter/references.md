@@ -6,6 +6,10 @@
 ### Custom Bottom Navigation View
  - https://www.youtube.com/watch?v=1ToqYMSnNhA
 
+### CustomPatiner
+ - https://blog.codemagic.io/flutter-custom-painter/ `CustomPainter with animation`
+ - https://fluttershapemaker.com/ `CustomPainter tool`
+
 ## Asynchronous
 
 ### Async vs Isolate
@@ -14,6 +18,4 @@
 ### Isolate
  - https://brunch.co.kr/@mystoryg/131
 
-## CustomPatiner
- - https://blog.codemagic.io/flutter-custom-painter/ `CustomPainter with animation`
- - https://fluttershapemaker.com/ `CustomPainter tool`
+
