@@ -13,3 +13,6 @@
 
 ### Isolate
  - https://brunch.co.kr/@mystoryg/131
+
+## CustomPatiner
+ - https://blog.codemagic.io/flutter-custom-painter/ `CustomPainter with animation`
