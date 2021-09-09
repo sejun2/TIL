@@ -18,4 +18,7 @@
 ### Isolate
  - https://brunch.co.kr/@mystoryg/131
 
+## Trick
 
+### Get proper SafeArea's height
+ - https://stackoverflow.com/questions/55610742/proper-way-to-get-widget-height-in-safearea
