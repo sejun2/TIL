@@ -81,4 +81,8 @@ class _SixthPageState extends State<SixthPage> {
 `결과 비교`
 
 
+![s1](https://user-images.githubusercontent.com/33044667/149259227-42b6841a-b61d-42c2-b037-009c9810cd63.png)
+![s2](https://user-images.githubusercontent.com/33044667/149259220-e7f7cc45-26b8-43cd-ba37-68288afdd8c8.png)
+
+
 
