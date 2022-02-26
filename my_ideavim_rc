@@ -21,6 +21,9 @@ map <leader>cd :action ChooseDebugConfiguration<CR>
 map <leader>rr :action Run<CR>
 map <leader>cr :action ChooseRunConfiguration<CR>
 map <leader>ss :action Stop<CR>
+map <leader>f :action Forward<CR>
+map <leader>b :action Back<CR>
+
 map <C-J> :action Tree-selectNext<CR>
 map <C-K> :action Tree-selectPrevious<CR>
 map <C-H> :action Tree-selectParent<CR>
@@ -36,4 +39,4 @@ map <C-L> :action Tree-selectChild<CR>
 "map \b <Action>(ToggleLineBreakpoint)
 
 
-" Find more examples here: https://jb.gg/share-ideavimrc
+" Find more examples here: https://jb.gg/share-ideavimr
